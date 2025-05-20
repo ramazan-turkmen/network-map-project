@@ -33,89 +33,25 @@ pip install -r requirements.txt
 
 
 
+⚙️ Kullanım
+python main.py
+
+GUI arayüzü üzerinden IP aralığını girip taramayı başlatabilirsiniz. Ağ haritası network_map.png olarak oluşturulur.
 
 
+Projeyi faydalı bulduysanız GitHub’da yıldızlamayı ve paylaşmayı unutmayın!
 
-Kodların bir kısmı!! Tüm proje dosyaların içinde paylaşıma açılmıştır.
-.....
+---
 
-    result = srp(packet, timeout=2, verbose=0)[0]
-    devices = []
+🖼️ **3. Demo Görseli (`network_map.png`) Hakkında**
 
-    for sent, received in result:
-        mac = received.hwsrc
-        vendor = get_vendor(mac, vendors)
-        devices.append({
-            "ip": received.psrc,
-            "mac": mac,
-            "hostname": get_hostname(received.psrc),
-            "vendor": vendor
-        })
+- Görselin sade, okunabilir olması önemli.
+- Router merkezde, cihazlar dışta, her biri altında IP-MAC-hostname-vendor bilgileri olacak şekilde gösterilmeli.
+- PNG dosyası doğrudan README altında gösterilmeli (`![network_map demo](network_map.png)`)
 
-    return devices
+---
 
-.....
-
-    for device in devices:
-        label = f"{device['ip']}\n{device['mac']}\n{device['hostname']}\n{device['vendor']}"
-        dot.node(device['ip'], label)
-        dot.edge("Router", device['ip'])
-
-    dot.render(output_file, view=False)
-    print(f"[✓] Ağ haritası kaydedildi: {output_file}.png")
-
-.....
-
-    filter_text = filter_entry.get().lower()
-
-    for dev in devices:
-        if filter_text in dev['ip'].lower() or filter_text in dev['mac'].lower() or filter_text in dev['vendor'].lower():
-            tree.insert('', tk.END, values=(dev['ip'], dev['mac'], dev['hostname'], dev['vendor']))
-
-.....
-
-    devices = scan(ip_range, vendors)
-    update_device_list(devices, tree, filter_entry)
-    draw_graph(devices)
-    messagebox.showinfo("Tarama Tamamlandı", f"{len(devices)} cihaz bulundu.")
-
-.....
-
-    if platform.system() == "Linux":
-        messagebox.showinfo("Linux Uyarısı", "Lütfen sistem paketlerinin yüklü olduğundan emin olun:\n\n- graphviz\n- python3-tk\n- xdg-utils")
-
-    frame_top = tk.Frame(window)
-    frame_top.pack(pady=10)
-
-    tk.Label(frame_top, text="IP Aralığı:").pack(side=tk.LEFT)
-    ip_entry = tk.Entry(frame_top, width=30)
-    ip_entry.insert(0, "192.168.1.0/24")
-    ip_entry.pack(side=tk.LEFT, padx=5)
-
-    filter_entry = tk.Entry(frame_top, width=20)
-    filter_entry.pack(side=tk.LEFT, padx=5)
-    filter_entry.insert(0, "")
-
-    scan_button = tk.Button(frame_top, text="Taramayı Başlat", command=lambda: start_scan(ip_entry, tree, vendors, filter_entry))
-    scan_button.pack(side=tk.LEFT, padx=5)
-
-    frame_tree = tk.Frame(window)
-    frame_tree.pack(fill=tk.BOTH, expand=True)
-
-    tree = ttk.Treeview(frame_tree, columns=("IP", "MAC", "Hostname", "Vendor"), show="headings")
-    for col in ("IP", "MAC", "Hostname", "Vendor"):
-        tree.heading(col, text=col)
-        tree.column(col, width=150)
-    tree.pack(fill=tk.BOTH, expand=True)
-
-    frame_bottom = tk.Frame(window)
-    frame_bottom.pack(pady=10)
-
-    btn_open_map = tk.Button(frame_bottom, text="PNG'yi Harici Aç", command=lambda: open_image("network_map.png"))
-    btn_open_map.pack()
-
-    window.mainloop()
-
+📦 **4. Ekstra Tavsiye – GitHub İçeriği Dosya Yapısı Önerisi**
 
 
 
