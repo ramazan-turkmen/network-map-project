@@ -47,15 +47,8 @@ Projeyi faydalı bulduysanız GitHub’da yıldızlamayı ve paylaşmayı unutma
 
 - Görselin sade, okunabilir olması önemli.
 - Router merkezde, cihazlar dışta, her biri altında IP-MAC-hostname-vendor bilgileri olacak şekilde gösterilmeli.
-- PNG dosyası doğrudan README altında gösterilmeli (`![network_map demo](network_map.png)`)
+- PNG dosyası doğrudan README altında gösterilmeli (`![network_map](network_map.png)`)
 
 ---
 
 📦 **4. Ekstra Tavsiye – GitHub İçeriği Dosya Yapısı Önerisi**
-
-
-
-
-
-
-
