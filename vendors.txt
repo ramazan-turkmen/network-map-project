@@ -1,0 +1,30 @@
+00:1A:2B        Apple, Inc.
+00:0C:29        VMware, Inc.
+B8:27:EB        Raspberry Pi Foundation
+FC:FB:FB        Facebook, Inc.
+00:1B:63        Sony Corporation
+3C:5A:B4        Google, Inc.
+00:16:3E        XenSource, Inc. (Citrix/Xen)
+00:50:56        VMware, Inc.
+00:1C:B3        Cisco Systems
+D8:BB:2C        Huawei Technologies Co.,Ltd
+00:17:88        Intel Corporate
+00:09:0F        Nintendo Co., Ltd.
+DC:A6:32        Samsung Electronics
+70:8B:CD        LG Electronics
+00:21:5C        Microsoft Corporation
+08:00:27        Oracle VirtualBox (Innotek GmbH)
+00:13:E8        Dell Inc.
+00:24:E8        Hewlett Packard
+00:23:69        TP-Link Technologies
+00:25:9C        ASUStek Computer Inc.
+00:15:17        Supermicro
+00:1C:C0        Advantech Co., Ltd.
+00:80:64        Kontron
+00:30:64        IEI Integration Corp.
+00:0A:F7        Lenovo Group Limited
+00:26:B9        Fujitsu Technology Solutions
+00:60:DD        Portwell, Inc.
+00:14:5E        Bosch Security Systems
+00:25:90        Arista Networks, Inc.
+00:11:43        NEC Corporation

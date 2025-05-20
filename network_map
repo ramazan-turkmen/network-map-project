@@ -1,0 +1,154 @@
+graph "Network Map" {
+	node [color=lightblue2 shape=box style=filled]
+	Router [label=Router]
+	"10.10.10.1" [label="10.10.10.1
+02:00:13:3c:f2:9e
+device-1
+Bilinmeyen"]
+	Router -- "10.10.10.1"
+	"10.10.10.2" [label="10.10.10.2
+02:00:4e:b9:07:ae
+device-2
+Bilinmeyen"]
+	Router -- "10.10.10.2"
+	"10.10.10.3" [label="10.10.10.3
+02:00:0e:08:b0:3f
+device-3
+Bilinmeyen"]
+	Router -- "10.10.10.3"
+	"10.10.10.4" [label="10.10.10.4
+02:00:7c:56:2e:4c
+device-4
+Bilinmeyen"]
+	Router -- "10.10.10.4"
+	"10.10.10.5" [label="10.10.10.5
+02:00:e3:91:23:e1
+device-5
+Bilinmeyen"]
+	Router -- "10.10.10.5"
+	"10.10.10.6" [label="10.10.10.6
+02:00:51:b5:7c:5d
+device-6
+Bilinmeyen"]
+	Router -- "10.10.10.6"
+	"10.10.10.7" [label="10.10.10.7
+02:00:cd:81:4e:ed
+device-7
+Bilinmeyen"]
+	Router -- "10.10.10.7"
+	"10.10.10.8" [label="10.10.10.8
+02:00:3c:2f:96:a1
+device-8
+Bilinmeyen"]
+	Router -- "10.10.10.8"
+	"10.10.10.9" [label="10.10.10.9
+02:00:ce:af:0d:1c
+device-9
+Bilinmeyen"]
+	Router -- "10.10.10.9"
+	"10.10.10.10" [label="10.10.10.10
+02:00:4e:ab:5d:dd
+device-10
+Bilinmeyen"]
+	Router -- "10.10.10.10"
+	"10.10.10.11" [label="10.10.10.11
+02:00:af:ae:1c:d5
+device-11
+Bilinmeyen"]
+	Router -- "10.10.10.11"
+	"10.10.10.12" [label="10.10.10.12
+02:00:aa:bb:fc:73
+device-12
+Bilinmeyen"]
+	Router -- "10.10.10.12"
+	"10.10.10.13" [label="10.10.10.13
+02:00:1b:77:af:28
+device-13
+Bilinmeyen"]
+	Router -- "10.10.10.13"
+	"10.10.10.14" [label="10.10.10.14
+02:00:08:c6:38:df
+device-14
+Bilinmeyen"]
+	Router -- "10.10.10.14"
+	"10.10.10.15" [label="10.10.10.15
+02:00:2c:ee:09:71
+device-15
+Bilinmeyen"]
+	Router -- "10.10.10.15"
+	"10.10.10.16" [label="10.10.10.16
+02:00:8d:a0:21:79
+device-16
+Bilinmeyen"]
+	Router -- "10.10.10.16"
+	"10.10.10.17" [label="10.10.10.17
+02:00:db:70:11:d7
+device-17
+Bilinmeyen"]
+	Router -- "10.10.10.17"
+	"10.10.10.18" [label="10.10.10.18
+02:00:e8:6e:39:49
+device-18
+Bilinmeyen"]
+	Router -- "10.10.10.18"
+	"10.10.10.19" [label="10.10.10.19
+02:00:19:35:63:18
+device-19
+Bilinmeyen"]
+	Router -- "10.10.10.19"
+	"10.10.10.20" [label="10.10.10.20
+02:00:89:ee:af:be
+device-20
+Bilinmeyen"]
+	Router -- "10.10.10.20"
+	"10.10.10.21" [label="10.10.10.21
+02:00:dd:17:fd:6d
+device-21
+Bilinmeyen"]
+	Router -- "10.10.10.21"
+	"10.10.10.22" [label="10.10.10.22
+02:00:d5:18:58:42
+device-22
+Bilinmeyen"]
+	Router -- "10.10.10.22"
+	"10.10.10.23" [label="10.10.10.23
+02:00:2d:b4:e1:16
+device-23
+Bilinmeyen"]
+	Router -- "10.10.10.23"
+	"10.10.10.24" [label="10.10.10.24
+02:00:7d:89:51:7a
+device-24
+Bilinmeyen"]
+	Router -- "10.10.10.24"
+	"10.10.10.25" [label="10.10.10.25
+02:00:20:57:e2:bd
+device-25
+Bilinmeyen"]
+	Router -- "10.10.10.25"
+	"10.10.10.26" [label="10.10.10.26
+02:00:1c:82:d2:1b
+device-26
+Bilinmeyen"]
+	Router -- "10.10.10.26"
+	"10.10.10.27" [label="10.10.10.27
+02:00:00:c3:aa:bc
+device-27
+Bilinmeyen"]
+	Router -- "10.10.10.27"
+	"10.10.10.28" [label="10.10.10.28
+02:00:e9:27:2d:8f
+device-28
+Bilinmeyen"]
+	Router -- "10.10.10.28"
+	"10.10.10.29" [label="10.10.10.29
+02:00:83:67:83:b3
+device-29
+Bilinmeyen"]
+	Router -- "10.10.10.29"
+	"10.10.10.30" [label="10.10.10.30
+02:00:7e:36:e1:ef
+device-30
+Bilinmeyen"]
+	Router -- "10.10.10.30"
+}
