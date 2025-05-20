@@ -100,7 +100,7 @@ def build_gui():
     vendors = load_vendors()
 
     window = tk.Tk()
-    window.title("Ağ Haritası Tarayıcı")
+    window.title("Ağ Haritası Tarayıcı - V7")
     window.geometry("800x600")
 
     if platform.system() == "Linux":
