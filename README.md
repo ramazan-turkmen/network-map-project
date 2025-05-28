@@ -13,11 +13,13 @@ Bu proje, yerel ağda bulunan cihazları otomatik olarak tespit edip, onların I
 
  📷 Ekran Görüntüsü
 
-![Image](https://github.com/user-attachments/assets/1213c012-31b1-4b03-8e89-6b6b130e8004)
 
-![Image](https://github.com/user-attachments/assets/2a0d4682-56bc-491d-8bfc-71b9cc456acd)
+![1](https://github.com/user-attachments/assets/fe0f9297-1e5f-4b40-95dd-f230131b386d)
 
-![Image](https://github.com/user-attachments/assets/72a8fc30-1aea-437f-9ef2-785ae7a7f13e)
+![2](https://github.com/user-attachments/assets/6cd5f1df-54fd-4f7f-b247-224eb3834eec)
+
+![3](https://github.com/user-attachments/assets/d613fed1-ad80-408e-91cd-ce5c73a107ea)
+
 
 🛠 Gereksinimler
 
